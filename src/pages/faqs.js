@@ -11,18 +11,19 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 
 const outerTypo = {
-  fontFamily: "Lato",
+  fontFamily: "Roboto",
   fontSize: `28px`,
-  marginLeft: "310px"
+  marginLeft: "20%"
 };
 
 const innerTypo = {
+  fontFamily: "Roboto",
   fontSize: `20px`,
   backgroundColor: "#EAEDED",
   borderRadius: "20px",
   textAlign: "left",
-  maxWidth: `1125px`,
-  marginLeft: "310px"
+  maxWidth: `57%`,
+  marginLeft: "20%"
 };
 
 const styles = theme => ({
