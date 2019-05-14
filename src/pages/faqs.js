@@ -1,14 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import NavigationBar from "../Layouts/Navigationbar";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import {
-  MuiThemeProvider,
-  createMuiTheme
-} from "@material-ui/core/styles/MuiThemeProvider";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import NavigationBar from "../components/Navigationbar";
 
 const outerTypo = {
   fontFamily: "Roboto",

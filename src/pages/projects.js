@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationBar from "../Layouts/Navigationbar";
+import NavigationBar from "../components/Navigationbar";
 
 export default () => (
   <div>
