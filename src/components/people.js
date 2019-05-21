@@ -5,14 +5,15 @@ import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import { withStyles, Chip } from "@material-ui/core";
+import { withStyles, Chip, Avatar } from "@material-ui/core";
 import data from "/home/binayak/Documents/club-website/src/config/members.yaml";
 import "font-awesome/css/font-awesome.min.css";
 import PropTypes from "prop-types";
+import Icon from "@material-ui/core/Icon";
 
 const styles = {
     grid: {
-        marginTop: "2rem"
+        marginTop: "10rem"
     },
     card: {
         minHeight: "100%"
@@ -26,14 +27,18 @@ const styles = {
     },
     name_hover: {
         backgroundColor: "white",
-        height: "8rem"
+        height: "6rem"
     },
     chip: {
-        marginLeft: 40,
-        color: "#212121"
+        color: "#212121",
+        marginLeft: "2rem",
+        marginTop: "1.3rem"
     },
-    hovermargin: {
-        marginTop: "1.5rem"
+    hr: {
+        width: "30%"
+    },
+    heading: {
+        color: "#6d48e5"
     }
 };
 
@@ -41,6 +46,15 @@ const People = props => {
     const { classes } = props;
     return (
         <Grid spacing={16} className={classes.grid}>
+            <Typography
+                component="h5"
+                variant="display2"
+                align="center"
+                className={classes.heading}
+            >
+                MEET THE TEAM
+            </Typography>
+            <hr className={classes.hr} />
             <Grid item xs={2}>
                 <Card className={styles.card}>
                     <CardActionArea>
@@ -57,39 +71,28 @@ const People = props => {
                         >
                             {props.hover ? (
                                 <CardContent className={classes.name_hover}>
-                                    <Typography
-                                        gutterBottom
-                                        component="title"
-                                        variant="title"
-                                        align="center"
-                                        gutterBottom
-                                    >
-                                        {data.members.member1.name}
-                                    </Typography>
-                                    <Typography
-                                        gutterBottom
-                                        component="subheading"
-                                        variant="subheading"
-                                        align="center"
-                                    >
-                                        {data.members.member1.position}
-                                    </Typography>
                                     <Chip
-                                        label={<i className="fa fa-envelope" />}
+                                        label={
+                                            <i className="fa fa-github-square fa-2x web-link-icon" />
+                                        }
                                         className={classes.chip}
                                         component="a"
                                         href="#chip"
                                         clickable
                                     />
                                     <Chip
-                                        label={<i className="fa fa-envelope" />}
+                                        label={
+                                            <i className="fa fa-facebook-square fa-2x web-link-icon " />
+                                        }
                                         className={classes.chip}
                                         component="a"
                                         href="#chip"
                                         clickable
                                     />
                                     <Chip
-                                        label={<i className="fa fa-envelope" />}
+                                        label={
+                                            <i className="fa fa-linkedin-square fa-2x web-link-icon" />
+                                        }
                                         className={classes.chip}
                                         component="a"
                                         href="#chip"
@@ -127,4 +130,7 @@ const People = props => {
     );
 };
 
+People.propTypes = {
+    classes: PropTypes.object.isRequired
+};
 export default withStyles(styles)(People);
