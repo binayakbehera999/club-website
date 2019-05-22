@@ -35,7 +35,7 @@ const NavigationBar = () => (
           <Nav.Link href="/team" className="navbarStyle" style={textStyle}>
             MEET THE TEAM
           </Nav.Link>
-          <Nav.Link href="/about" className="navbarStyle" style={textStyle}>
+          <Nav.Link href="/sessions" className="navbarStyle" style={textStyle}>
             SESSIONS
           </Nav.Link>
           <Nav.Link href="/alumni" className="navbarStyle" style={textStyle}>
