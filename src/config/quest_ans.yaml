@@ -1,0 +1,31 @@
+faqs:
+  details1:
+    question: "Why Zairza?"
+    answer: "For people persuing careers in computers and/or robotics, writing code, developing softwares, and creating exceptional things. That's what we do here. We do things and we help people who are really interested into them."
+  details2:
+    question: "How can I join?"
+    answer: " Zairza conducts its formal events for recruitment into the club. The pre-requisite includes passion for technology and an inquisitive mind. Please contact the club administration for the exact procudures."
+  details3:
+    question: "What is the scope of Zairza?"
+    answer: "The talent pool of the club is widely ranged. We have members working on Web Development, Android Development, Embedded Systems, IOT, Robotics, Machine Learning, Computer Vision and Artificial Intelligence. Our Alumnis are placed in prestigious organization around the globe."
+  details4:
+    question: " I have a Tech project. How can Zairza help me?"
+    answer: "Zairza can provide you with space and environment to work on yourproject. We have stable fast internet connection and all the tools, components and other required resources for your project. Given proper report, we can also fund your project. Apart from this, we have senior experienced mentors who will be more than happy to guide you throughout your project."
+  details5:
+    question: "What are the club timings?"
+    answer: "Zairza is open 24 hrs a day. Just coordinate with the members for the key."
+  details6:
+    question: "Why Zairza?"
+    answer: "For people persuing careers in computers and/or robotics, writing code, developing softwares, and creating exceptional things. That's what we do here. We do things and we help people who are really interested into them."
+  details7:
+    question: "How can I join?"
+    answer: " Zairza conducts its formal events for recruitment into the club. The pre-requisite includes passion for technology and an inquisitive mind. Please contact the club administration for the exact procudures."
+  details8:
+    question: "What is the scope of Zairza?"
+    answer: "The talent pool of the club is widely ranged. We have members working on Web Development, Android Development, Embedded Systems, IOT, Robotics, Machine Learning, Computer Vision and Artificial Intelligence. Our Alumnis are placed in prestigious organization around the globe."
+  details9:
+    question: " I have a Tech project. How can Zairza help me?"
+    answer: "Zairza can provide you with space and environment to work on yourproject. We have stable fast internet connection and all the tools, components and other required resources for your project. Given proper report, we can also fund your project. Apart from this, we have senior experienced mentors who will be more than happy to guide you throughout your project."
+  details10:
+    question: "What are the club timings?"
+    answer: "Zairza is open 24 hrs a day. Just coordinate with the members for the key."
