@@ -24,7 +24,7 @@ const styles = theme => ({
     fontSize: "1rem"
   }
 });
-function Faq(props) {
+function FAQ(props) {
   const { classes } = props;
   return (
     <div>
@@ -51,8 +51,8 @@ function Faq(props) {
   );
 }
 
-Faq.propTypes = {
+FAQ.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Faq);
+export default withStyles(styles)(FAQ);
