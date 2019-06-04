@@ -1,0 +1,16 @@
+sessions:
+  session1:
+    title: "Reactjs"
+    date: "dd/mm/yy"
+  session2:
+    title: "Android"
+    date: "dd/mm/yy"
+  session3:
+    title: "Python"
+    date: "dd/mm/yy"
+  session4:
+    title: "Machine Learning"
+    date: "dd/mm/yy"
+  session5:
+    title: "Machine Learning"
+    date: "dd/mm/yy"
